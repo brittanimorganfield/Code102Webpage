@@ -12,7 +12,7 @@ console.log(myName);
 
 var myAge = 17;
 
-var userMessage = prompt("Have you seen Girl from Nowhere on Netflix?");
+var userMessage = prompt("Have you seen "Girl from Nowhere" on Netflix?");
 console.log(userMessage);
 
 if (userMessage = No){
