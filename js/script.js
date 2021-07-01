@@ -20,6 +20,6 @@ if (userMessage = "No"){
 document.write("Enjoy");
 }
 else if(userMessage = "Yes"){
-    var userQuestion = prompt("It's so good, right?");
-    document.write("Enjoy!");
+    var userQuestion2 = prompt("It's so good, right?");
+    document.write("Enjoy");
     }
