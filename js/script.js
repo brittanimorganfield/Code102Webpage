@@ -15,7 +15,7 @@ var myAge = 17;
 var userMessage = prompt("Have you seen "Girl from Nowhere" on Netflix?");
 console.log(userMessage);
 
-if (userMessafe = No){
+if (userMessage = No){
     var userQuestion = prompt("You should consider it!");
 document.write("Enjoy");
 }
