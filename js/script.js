@@ -16,10 +16,10 @@ var userMessage = prompt("Have you seen Girl from Nowhere on Netflix?");
 console.log(userMessage);
 
 if (userMessage = No){
-    var userMessage = prompt("You should consider it!");
+    var userQuestion = prompt("You should consider it!");
 document.write("Enjoy");
 }
 else if(userMessage = Yes){
-    var userMessage = prompt("It's so good, right?");
+    var userQuestion2 = prompt("It's so good, right?");
     document.write("Enjoy!");
     }
