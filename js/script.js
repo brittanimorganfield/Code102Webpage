@@ -1,4 +1,5 @@
 console.log("You can watch Girl from Nowhere on Netflix");
+console.log("Netflix.com");
 
 //declaring variable x, setting it to 20
 var x; //variable declaration
@@ -9,12 +10,16 @@ console.log(x); //Prints out the value stored in x
 var myName = "Brittani";
 console.log(myName);
 
+var myAge = 17;
+
 var userMessage = prompt("Have you seen Girl from Nowhere on Netflix?");
 console.log(userMessage);
 
 if (userMessage = No){
-document.write("Thank you!");
+    var userQuestion = prompt("You should consider it!");
+document.write("Enjoy");
 }
 else if(userMessage = Yes){
-    document.write("Thank you!");
+    var userQuestion2 = prompt("It's so good, right?");
+    document.write("Enjoy!");
     }
