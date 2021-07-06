@@ -16,6 +16,6 @@ else if(userMessage = "Yes"){
              var thumbRating = document.createElement('img');
              thumbRating.setAttribute("src", "https://deadline.com/wp-content/uploads/2017/04/thumb.jpg");
              thumbRating.setAttribute("height", "90");
-             thumbRating.setAttribute("width", "90");    
+             thumbRating.setAttribute("width", "100");    
          }
     }
