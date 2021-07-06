@@ -19,3 +19,4 @@ else if(userMessage = "Yes"){
              thumbRating.setAttribute("width", "200");
              document.body.appendChild(thumbRating);    
          }
+    }
