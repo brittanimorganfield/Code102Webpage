@@ -15,7 +15,7 @@ else if(userMessage = "Yes"){
          for (let i = 0; i < rating; i++){
              var thumbRating = document.createElement('img');
              thumbRating.setAttribute("src", "https://deadline.com/wp-content/uploads/2017/04/thumb.jpg");
-             thumbRating.setAttribute("height", "90");
+             thumbRating.setAttribute("height", "30");
              thumbRating.setAttribute("width", "300");    
          }
     }
