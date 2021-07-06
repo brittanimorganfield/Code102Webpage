@@ -13,7 +13,7 @@ else if(userMessage = "Yes"){
     function rateShow(){
         var rating = prompt('Watch an episode and rate it here!');
          for (let i = 0; i < rating; i++){
-             var starCount = document.createElement('img');
+             var thumbRating = document.createElement('img');
              thumbRating.setAttribute("src", "https://deadline.com/wp-content/uploads/2017/04/thumb.jpg");
              thumbRating.setAttribute("height", "200");
              thumbRating.setAttribute("width", "200");
