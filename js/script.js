@@ -1,17 +1,3 @@
-console.log("You can watch Girl from Nowhere on Netflix");
-console.log("Netflix.com");
-
-//declaring variable x, setting it to 20
-var x; //variable declaration
-x = 20;// variable assignment
-
-console.log(x); //Prints out the value stored in x
-
-var myName = "Brittani";
-console.log(myName);
-
-var myAge = 17;
-
 var userMessage = prompt("Have you seen Girl from Nowhere on Netflix?");
 console.log(userMessage);
 
@@ -23,3 +9,13 @@ else if(userMessage = "Yes"){
     var userQuestion2 = prompt("It's so good, right?");
     document.write("Enjoy");
     }
+
+    function rateShow(){
+        var rating = prompt('Watch an episode and rate it here!');
+         for (let i = 0; i < rating; i++){
+             var starCount = document.createElement('img');
+             thumbRating.setAttribute("src", "https://deadline.com/wp-content/uploads/2017/04/thumb.jpg");
+             thumbRating.setAttribute("height", "200");
+             thumbRating.setAttribute("width", "200");
+             document.body.appendChild(thumbRating);    
+         }
